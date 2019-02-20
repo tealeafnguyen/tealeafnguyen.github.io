@@ -1,12 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Portfolio</title>
+
+	<!-- Css -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+
 </head>
+
 <body>
-    hello
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+					<span class="bar1"></span>
+					<span class="bar2"></span>
+					<span class="bar3"></span>
+				</div>
+				<a class="navbar-brand top" href="#">
+
+				</a>
+
+			</div>
+
+			<div class="collapse navbar-collapse" id="main-menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+	<!-- Intro -->
+	<section class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="img/profile.jpg" style="height:300px; width:300px;border:solid black 3px; border-radius: 150px;">
+				</div>
+				<div class="col-lg-7">
+					<p>Thomas Nguyen, a starving computer science graduate currently looking for a job</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- About -->
+	<section class="about" id="about">
+		<div class="container about">
+			<div class="row">
+				<div class="col-md-6 big-letter">
+					<p>
+						Graduated from Cal Poly Pomona with a BS in computer science. Currently employed at 7Layers as a Test System
+						Operator dealing with testing antennas and protocol for wireless devices equipped with the qualcomm chipset.
+						<br>
+						<p>
+							Worked as a student assistant while pursuing undergrad degree in computer science. I mainly graded projects and
+							quizes
+							for an assembly language class that used the MIPS instruction set.
+						</p>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<h2>
+							Skills
+						</h2>
+					</ul>
+					<li>Java</li>
+					<li>Javascript</li>
+					<li>C++</li>
+					<li>C#</li>
+					<li>MySQL</li>
+					<li>Firebase</li>
+					<li>Amazon Web Services</li>
+					<li>Jenkins</li>
+					<li>Bootstrap</li>
+					<li>Foundation</li>
+					<li>ExpressJS</li>
+				</div>
+
+				<div class="col-md-3">
+					<br><br>
+					<li>Apache Maven</li>
+					<li>SDL2</li>
+					<li>Spring Framework</li>
+					<li>Jquery</li>
+					<li>OpenSSL</li>
+					<li>CSS/html</li>
+					<li>Unit Testing</li>
+					<li>ReactJS</li>
+					<li>MongoDB</li>
+					<li>NodeJS</li>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<!-- Gallery -->
+	<section id="portfolio">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-1"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="0">
+							<a href="https://github.com/TeamNotSoBad/demo-web-project" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>BroncoStudy</h2>
+									<p>AWS web project written Java (Currently not deployed)</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-2"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="1">
+							<a href="https://tealeafnguyen.github.io/TriviaGame/" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>Trivia Game</h2>
+									<p>A trivia game with questions generated from trivia API</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-3"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="2">
+							<a href="https://tealeafnguyen.github.io/Word-Guess-Game/" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>Hang Man Shrek Edition</h2>
+									<p>A word guessing game with a Shrek theme</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-4"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="3">
+							<a href="https://github.com/tealeafnguyen/CS141-GroupProject" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>Java Text Game</h2>
+									<p>A text based game written in Java</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-5"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="3">
+							<a href="https://github.com/tealeafnguyen/Gravity-Simulator" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>Particle Simulator</h2>
+									<p>Simulation of particles in a 2D space rendered with SDL2</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-6"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="3">
+							<a href="https://tealeafnguyen.github.io/giphy/" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>SFW Giphy Search</h2>
+									<p>Searches for sfw gifs using Giphy API</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-7"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="0">
+							<a href="https://recipeapp-fd.firebaseapp.com/" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>Recipe Finder</h2>
+									<p>Firebase webapp that gives you recipes</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-10"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="3">
+							<a href="https://peaceful-anchorage-98434.herokuapp.com/" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>acctg Web Accounting</h2>
+									<p>A book keeping web application running on React and MongoDB. Visit the demo by clicking here.</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-8"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="2">
+							<a href="http://afternoon-crag-56596.herokuapp.com/" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2>Deez Polls</h2>
+									<p>Create polls for free to gauge the interest of random strangers or friends</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+
+
+				<div class="col-md-6 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-9"></div>
+						<a href="#mybox" data-toggle="modal" data-slide-to="3">
+							<a href="https://github.com/tealeafnguyen/CS141-GroupProject" target="_blank">
+								<div class="overlay" style=' text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;'>
+									<h2 style="color:orangered">NTY Scraper</h2>
+									<p style="color:orangered">A single page application that scrapes for the latest front page article of specific topics</p>
+								</div>
+							</a>
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- End Gallery -->
+
+
+	<div class="container">
+		<div class="modal fade and carousel slide" id="mybox">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+
+						<button class="close" data-dismiss="modal" type="button">×</button>
+
+
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="img/1.jpg" alt="slide">
+							</div>
+							<div class="item">
+								<img src="img/2.jpg" alt="slide">
+							</div>
+							<div class="item">
+								<img src="img/3.jpg" alt="slide">
+							</div>
+							<div class="item">
+								<img src="img/4.jpg" alt="slide">
+							</div>
+						</div><!-- /.carousel-inner -->
+
+
+						<a class="left carousel-control" href="#mybox" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#mybox" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</div><!-- /.container -->
+
+	<!-- Copyright -->
+	<footer>
+		<div class="container">
+			<p class="text-center">© 2018</p>
+		</div>
+	</footer>
+
+	<a href="#page-top" class="cd-top">Top</a>
+
+
+	<!-- script -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/script.js"></script>
+
+
+
 </body>
+
 </html>

@@ -60,6 +60,7 @@ a:hover,a:focus {
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: 0px;
+    margin-right: 0px
 }
 
 @media(min-width:768px) {
@@ -88,6 +89,13 @@ a:hover,a:focus {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #555;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  border-color: #222;
+  border-style:solid;
 }
 
 
@@ -543,4 +551,127 @@ footer p {
   }
 }
 
+.portfolio-area .primary-btn {
+  color: #fff;
+  background-color: #8ab92d;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.portfolio-area .filters {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.portfolio-area .filters ul {
+  padding: 0;
+}
+
+.portfolio-area .filters ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 500;
+}
+
+@media (max-width: 736px) {
+  .portfolio-area .filters ul li {
+    padding: 6px 6px;
+  }
+}
+
+.portfolio-area .filters ul li:after {
+  content: "";
+  display: block;
+  width: calc(0% - 60px);
+  position: absolute;
+  height: 2px;
+  background: #333;
+  transition: width 350ms ease-out;
+}
+
+.portfolio-area .filters ul li:hover:after {
+  width: calc(100% - 60px);
+  transition: width 350ms ease-out;
+}
+
+.portfolio-area .filters ul li.active {
+  color: #8ab92d;
+}
+
+.portfolio-area .filters-content {
+  margin-top: 50px;
+}
+
+.portfolio-area .filters-content .show {
+  opacity: 1;
+  visibility: visible;
+  transition: all 350ms;
+}
+
+.portfolio-area .filters-content .hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 350ms;
+}
+
+.portfolio-area .filters-content .item {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.portfolio-area .filters-content .item img {
+  border-radius: 10px;
+}
+
+.portfolio-area .filters-content .item .p-inner {
+  padding: 20px 0px;
+}
+
+.portfolio-area .filters-content .item .p-inner h5 {
+  font-size: 15px;
+}
+
+.portfolio-area .filters-content .item .p-inner .cat {
+  font-size: 13px;
+}
+
+.portfolio-area .filters-content .item img {
+  width: 100%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containerM {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+}
